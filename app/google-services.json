@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1042092487950",
+    "firebase_url": "https://todo-21bc6.firebaseio.com",
+    "project_id": "todo-21bc6",
+    "storage_bucket": "todo-21bc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042092487950:android:fe184a0b41cc2f9a",
+        "android_client_info": {
+          "package_name": "com.iiitd.prince.assignmentfour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042092487950-n57cauifk0d60qgjgcu9vdg2v36s2v0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTWYE_6lSoRkMi0PiYLF2UkeK7KoUzCWc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
