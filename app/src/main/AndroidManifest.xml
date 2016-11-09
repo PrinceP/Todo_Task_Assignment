@@ -24,7 +24,10 @@
             android:name=".Add_Task"
             android:label="@string/add_task"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".TodoViewer"></activity>
+        <activity android:name=".TodoViewer"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>

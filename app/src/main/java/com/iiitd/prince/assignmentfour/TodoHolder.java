@@ -1,5 +1,7 @@
 package com.iiitd.prince.assignmentfour;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
@@ -32,6 +34,20 @@ public class TodoHolder extends RecyclerView.ViewHolder {
         this.taskObject = taskObject;
         categoryTitle = (TextView)itemView.findViewById(R.id.task_title);
         markIcon = (ImageView)itemView.findViewById(R.id.task_icon);
+        markIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String taskTitle = taskObject.get(getAdapterPosition()).getTitle();
+                Context context = view.getContext();
+                Log.d(TAG, "Task Title " + taskTitle);
+                Intent i = new Intent(context,TodoViewer.class);
+                i.putExtra("TITLE",taskTitle);
+                context.startActivity(i);
+
+            }
+        });
+
+
         deleteIcon = (ImageView)itemView.findViewById(R.id.task_delete);
         deleteIcon.setOnClickListener(new View.OnClickListener() {
             @Override

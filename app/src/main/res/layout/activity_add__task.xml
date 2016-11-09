@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorWhite"
     tools:context="com.iiitd.prince.assignmentfour.Add_Task">
 
     <LinearLayout
@@ -21,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Title"
+            android:textColor="@color/colorBlack"
             android:layout_weight="1"
             android:textSize="20dp"/>
         <EditText
@@ -28,12 +30,14 @@
             android:layout_width="match_parent"
             android:inputType="text"
             android:layout_height="wrap_content"
+            android:hint="@string/Pleasetitle"
             android:layout_weight="1"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
             android:text="@string/Detail"
             android:layout_weight="1"
             android:textSize="20dp"
@@ -47,6 +51,7 @@
             android:minLines="6"
             android:gravity="top|left"
             android:maxLines="6"
+            android:hint="@string/Pleasedetail"
             android:id="@+id/add_task_box_detail"
             android:layout_weight="1"
             />

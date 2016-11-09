@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+
+
         setSupportActionBar(myToolbar);
         allTask = new ArrayList<TodoTask>();
         databaseReference = FirebaseDatabase.getInstance().getReference();

@@ -4,6 +4,11 @@
     <string name="add_task_button">ADD</string>
     <string name="mainactivity_toolbar">Your Task\'s</string>
     <string name="add_task">Add your task</string>
-    <string name="Title">Title</string>
-    <string name="Detail">Detail</string>
+    <string name="Title">TITLE</string>
+    <string name="Detail">DETAIL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Pleasetitle">Enter the title</string>
+    <string name="Pleasedetail">Enter the detail</string>
 </resources>
